@@ -1,0 +1,26 @@
+{
+  "name": "post-wavy",
+  "version": "1.0.0",
+  "description": "use ~ in require and import calls",
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "wavy": "./index.js",
+    "post-wavy": "./index.js"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kt3k/post-wavy"
+  },
+  "keywords": [
+    "~",
+    "require",
+    "symlink"
+  ],
+  "author": "Yoshiya Hinosawa",
+  "license": "MIT"
+}
